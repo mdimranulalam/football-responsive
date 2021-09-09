@@ -82,6 +82,9 @@ nav{
     cursor: pointer;
 }
 
+
+
+
 /* -------------------------------------
 +++++++++++ Main Style ++++++++++++++
 -------------------------------------- */
@@ -141,8 +144,6 @@ nav{
     width: 556px;
     height: 438px;
 }
-
-
 
             /* -------------------------------------
             ++++++++++ Section-2 Style ++++++++++++
@@ -245,6 +246,7 @@ nav{
 }
 
 
+
 /* -------------------------------------
 +++++++++++ Footer Style ++++++++++++++
 -------------------------------------- */
@@ -294,4 +296,108 @@ nav{
     align-items: center;
     text-align: right;
     color: #000000;
+}
+
+
+
+
+
+
+
+/* -------------------------------------
++++++++++++ Media Queary ++++++++++++++
+-------------------------------------- */
+@media only screen and (max-width: 688px){
+    
+    /* header mobile style */
+    header{
+        display: none;
+    }
+    
+    /* ~~~~~~~~~~~~~~~~~~~~~~
+    Section-1 Mobile Style 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .section-1{
+        height: 695px;
+    }
+    .section-1-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 16px;
+        padding-right: 66px;
+    }
+    /* section 1 details */
+    .section-1-left h2{
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+        padding-bottom: 27px;
+    }
+
+    /* Main Section Image  */
+    .section-1-right img{
+        width: 329px;
+        height: 259px;
+        padding-top: 100px;
+        padding-left: 25px;
+    }
+    
+    /* ~~~~~~~~~~~~~~~~~~~~~~
+    Section-2 Mobile Style 
+    ~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .section-2-box{
+        margin-top: 47px;
+        margin-bottom: 60px;
+    }
+    .section-2-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 24px;
+    }
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~
+    Section-3 Mobile Style 
+    ~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .section-3{
+        padding-bottom: 50px;
+    }
+    .section-3-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section-3-left h2{
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 8px;
+    }
+
+    .section-3-left p{
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 24px;
+    }
+
+    .section-3-right img{
+        width: 328px;
+        height: 248px;
+        padding-top: 29px;
+    }
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~
+    Footer Mobile Style 
+    ~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .footer-items{
+        width: auto;
+        height: 300px;
+    }
+
+    /* Footer Logo */
+    .footer-images img{
+        width: 275px;
+        height: 63px;
+        padding-bottom: 29px;
+    }
 }
