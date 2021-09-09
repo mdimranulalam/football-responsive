@@ -170,6 +170,11 @@ nav{
     display: flex;
     justify-content: center;
 }
+.player-card:hover{
+    background-color: rgb(250, 250, 252);
+    transition: 0.3s all ease;
+}
+
 .player-details{
     width: 300px;
     height: 426px;
@@ -196,4 +201,97 @@ nav{
     font-size: 16px;
     line-height: 26px;
     color: #6C6C6C;
+}
+
+            /* -------------------------------------
+            ++++++++++ Section-3 Style ++++++++++++
+            -------------------------------------- */
+
+.section-3{
+    padding-bottom: 100px;
+}
+.section-3-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 66px;
+    padding-left: 182px;
+    padding-right: 157px;
+}
+/* section 3 details */
+.section-3-left h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    padding-bottom: 27px;
+}
+
+.section-3-left p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-bottom: 24px;
+}
+
+.section-3-right img{
+    width: 567px;
+    height: 427px;
+}
+
+
+/* -------------------------------------
++++++++++++ Footer Style ++++++++++++++
+-------------------------------------- */
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-items{
+    width: 484px;
+    height: 213px;
+}
+
+/* Footer Logo */
+.footer-images img{
+    width: 484px;
+    height: 110px;
+    padding-bottom: 20px;
+}
+
+/* Social Icons */
+.social-icons{
+    padding-bottom: 20px;
+}
+.social-lists{
+    display: flex;
+    justify-content: center;
+}
+.social-lists li{
+    list-style: none;
+    padding: 0 7px;
+}
+.social-lists li a img{
+    width: 32px;
+    height: 32px;
+}
+
+/* Copyright Styles */
+.copyright p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    color: #000000;
 }
